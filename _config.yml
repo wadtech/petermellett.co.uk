@@ -19,7 +19,7 @@ resume-url: cv
 url: https://petermellett.co.uk
 # your url: http://USERNAME.github.io
 
-permalink: /:title/
+permalink: /blog/:title/
 
 # To enable google analytics, supply your token below
 # analytics-google:
@@ -100,6 +100,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-admin
+  - jekyll-sitemap
 
 jekyll-mentions:
     base_url: https://twitter.com

@@ -4,14 +4,12 @@ layout: post
 image: /assets/images/mariana-b-604752-unsplash.jpg
 headerImage: true
 tag:
-- javascript
-- electronics
+- JavaScript
+- Electronics
 category: blog
 author: pete
 description: Adventures with Johnny-five, Raspberry Pi and a compass. Photo by Mariana B. on Unsplash
 ---
-
-# Johnny-five In Production
 
 *I found this writeup that I never published. Oops! Here it is at long last*
 
