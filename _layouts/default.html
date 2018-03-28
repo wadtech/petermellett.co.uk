@@ -27,6 +27,10 @@ layout: compress
 </head>
 <body>
 
+    {% if page.image and page.headerImage %}
+        <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+    {% endif %}
+
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.tag %}
             <div class="post">
