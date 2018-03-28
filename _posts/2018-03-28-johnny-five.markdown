@@ -1,7 +1,6 @@
 ---
 title: "Johnny-Five in Production"
 layout: post
-date: 2018-03-28 09:30
 image: /assets/images/mariana-b-604752-unsplash.jpg
 headerImage: true
 tag:
