@@ -1,0 +1,47 @@
+$border-radius: 5px;
+
+$colours: rebeccapurple orangered goldenrod;
+
+.bar {
+    font-family: monospace;
+    width: 75%;
+    margin: 0 auto;
+    padding: .5em;
+    height: 1.5em;
+    border-radius: $border-radius;
+    background-color: #ccc;
+}
+
+.bar + .bar {
+    margin-top: 10px;
+}
+
+.fill {
+    color: white;
+    line-height: 1;
+    height: 1em;
+    padding: .25em;
+    border-radius: $border-radius;
+    display: inline-block;
+    background-color: red;
+    width: 0;
+}
+
+@for $i from 1 through length($colours) {
+    $col: nth($colours, $i);
+    .bar:nth-child(#{length($colours)}n+#{$i}) {
+
+        .fill {
+            background-color: $col;
+        }
+
+        @for $j from 0 through 100 {
+            $perc: round(percentage($j / 100));
+
+            .fill--#{$j} {
+                width: calc(#{$perc} - .5em);
+                background-color: mix($col, lighten($col, 50%), $j);
+            }
+        }
+    }
+}
