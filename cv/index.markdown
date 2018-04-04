@@ -45,7 +45,7 @@ Helped to run a code club at a local school. Duties included teaching and mentor
 
 **Mission To Mars**
 
-https://www.softwarecornwall.org/mission-to-mars/
+[Website](https://www.softwarecornwall.org/mission-to-mars/)
 
 Mentored a work experience week with young people (aged 14-18) who are interested in technology fields. The week offers a chance to experience agile methodologies and software development practices using Arduino-powered robots designed to emulate Mars rovers.
 
