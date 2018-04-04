@@ -6,6 +6,8 @@ layout: page
 
 # Hello, I'm Pete
 
+[Interests](#a-little-about-me) - [Skills](#technology)
+
 ## A little about me
 
 I'm a family man with two boys, both under 3. It's a terrifying and sleep-deprived time to be alive.
@@ -32,21 +34,22 @@ My first, and true, love is Ruby on Rails. I've been using it since 2011 when I 
 
 I've given a scale of proficiency, it's all relative and if it's made the list then I'd happily work with it day to day!
 
-## Languages
+### Languages
 
 <div class="bar"><span class="fill fill--85">JavaScript</span></div>
 <div class="bar"><span class="fill fill--90">PHP</span></div>
 <div class="bar"><span class="fill fill--100">Ruby</span></div>
 <div class="bar"><span class="fill fill--55">Go</span></div>
 
-## Techniques
+### Techniques
 
 <div class="bar"><span class="fill fill--95">Agile</span></div>
 <div class="bar"><span class="fill fill--75">TDD</span></div>
 <div class="bar"><span class="fill fill--80">CI</span></div>
 <div class="bar"><span class="fill fill--60">CD</span></div>
+<div class="bar"><span class="fill fill--90">Technical Documentation</span></div>
 
-## Frameworks
+### Frameworks
 
 <div class="bar"><span class="fill fill--90">Ruby on Rails</span></div>
 <div class="bar"><span class="fill fill--90">Laravel</span></div>
@@ -55,14 +58,14 @@ I've given a scale of proficiency, it's all relative and if it's made the list t
 <div class="bar"><span class="fill fill--65">Slim</span></div>
 <div class="bar"><span class="fill fill--75">Sinatra</span></div>
 
-## Tools
+### Tools
 
 <div class="bar"><span class="fill fill--80">Gulp</span></div>
 <div class="bar"><span class="fill fill--85">Grunt</span></div>
 <div class="bar"><span class="fill fill--70">Webpack</span></div>
 <div class="bar"><span class="fill fill--100">Git</span></div>
 
-## Databases
+### Databases
 
 <div class="bar"><span class="fill fill--90">MySQL</span></div>
 <div class="bar"><span class="fill fill--55">CouchDB</span></div>
