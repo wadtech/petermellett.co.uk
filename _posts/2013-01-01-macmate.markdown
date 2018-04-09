@@ -1,0 +1,60 @@
+---
+layout: page
+permalink: projects/:title
+category: project
+title: MacMate
+tech:
+  - PHP
+  - JavaScript
+  - CI
+  - Agile
+image: /assets/images/projects/hugo-barbosa-447400-unsplash.jpg
+headerImage: true
+author: pete
+description: MacMate, now WebMate, is a popular web-based hosting and cloud storage platform built in Cornwall. Photo by Hugo Barbosa on Unsplash
+---
+
+![MacMate](/assets/images/projects/macmate-logo-with-strap.jpg)
+
+From: January 2013  
+To: March 2015
+
+[Photo by Hugo Barbosa on Unsplash](https://unsplash.com/photos/TnG2q8FtXsg)
+
+I was lucky to be involved at a fairly early stage in the life of MacMate (now [WebMate](https://webmate.me).) - a popular SaaS product for web hosting, cloud storage and email management for a local award-winning ISP.
+
+The platform had not long launched and gained it's first thousand users from an advertising campaign to meet the needs of [MobileMe](https://en.wikipedia.org/wiki/MobileMe) customers who were left without an equivalent offering on the market after Apple discontinued its service.
+
+As a part of a small team, and on a trial-by-fire as a junior hire initially, I assisted in the creation of many features including some small and medium-sized projects.
+
+During my time working on MacMate I learned about Agile methodologies, estimation and restrospectives, teamwork in a software development team and many practical technical skills in PHP and JavaScript.
+
+We operated a continuous integration platform and aimed for an aggressive release schedule. This required team discipline and accountability to fix those broken builds!
+
+An ambitious uptime target meant that applications had to be able to understand a high-availabilty environment and fail fast to allow load balancers to direct traffic to working nodes in the cluster.
+
+## Galleries
+
+A good sized project during my time was a revamp of the existing gallery functionality in MacMate. Using lazy-loading and queued thumbnailing techniques to provide a smooth user experience with no upper bound on the size of a single gallery.
+
+The development cycle included optimisation and refinement with user acceptance critera and regular review.
+
+The updated software was successfully released and is still in use today.
+
+## The user-limit problem
+
+As MacMate approached 10,000 users a bottleneck was discovered in how application sandboxing was specified, causing some disruption. I devised a plan to rework the user switching system without any downtime to existing clients and the smallest possible maintenance window for release.
+
+Of utmost importance was user data integrity and siloing- user data must not be accessible to another user through malicious or accidental means.
+
+This limit was successfully avoided and the new user system allowed for an effectively unlimited amount of user accounts to exist.
+
+## Billing APIs
+
+In order to improve the onboarding process for MacMate, we implemented custom modules for WHMCS, the billing platform. This was in conjunction with a move to replace an older billing platform that was no longer sustainable for the business.
+
+The goal was to create an automated sign-up process via a registration form through to creating the account and completing set-up serverside. The final piece of the puzzle was to enable automated billing for the new accounts- of which one was a free tier, which has a special type in the billing software. Users could also opt to up- or downgrade their package at any time.
+
+This project turned out to be more of an investment of time than originally estimated, with many pitfalls to the WHMCS software that had to be accounted for.
+
+The integration work was successfully completed and existing billing accounts were migrated.

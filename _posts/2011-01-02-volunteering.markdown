@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 permalink: projects/:title
 category: project
 title: Volunteering
@@ -11,6 +11,8 @@ headerImage: true
 author: pete
 description: Some projects I've volunteered for and how my time has been used to mentor and promote tech in Cornwall. Photo by Ross Findon on Unsplash
 ---
+
+# {{page.title}}
 
 [Photo by Ross Findon on Unsplash](https://unsplash.com/photos/mG28olYFgHI)
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 permalink: projects/:title
 category: project
 title: Open Source
@@ -12,6 +12,8 @@ headerImage: true
 author: pete
 description: A bit about my open source contributions and how you can get involved. Photo by rawpixel.com on Unsplash
 ---
+
+# {{page.title}}
 
 [Photo by rawpixel.com on Unsplash](https://unsplash.com/photos/mqpMdf1MeRE)
 
