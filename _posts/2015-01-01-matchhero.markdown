@@ -2,6 +2,7 @@
 layout: post
 permalink: projects/:title
 title: MatchHero Cycling
+hidden: true # hide from pagination
 tech: 
   - Laravel
   - Geocoding

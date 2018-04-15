@@ -1,6 +1,7 @@
 ---
 category: project
 title: Cornwall Ruby
+hidden: true # hide from pagination
 tech: 
   - Jekyll
   - CSS

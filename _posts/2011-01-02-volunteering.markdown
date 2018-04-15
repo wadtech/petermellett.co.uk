@@ -2,6 +2,7 @@
 layout: page
 permalink: projects/:title
 category: project
+hidden: true # hide from pagination
 title: Volunteering
 tech: 
     - Mentoring
