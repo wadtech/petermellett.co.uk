@@ -1,0 +1,39 @@
+---
+layout: page
+permalink: projects/:title
+title: Comprobo
+tech: 
+  - Angular
+  - AWS
+  - Agile
+image: /assets/images/projects/craig-garner-202-unsplash.jpg
+headerImage: true
+author: pete
+description: Comprobo is an industry-leading automated invigilation system built with cutting-edge technology and used across all industries to manage and legitimise certifications and tests delivered by learning management systems. Photo by Craig Garner on Unsplash.
+category: project
+---
+
+![Comprobo Online Validation](/assets/images/projects/comprobo-logo.png){: .centered-image}
+
+> How do you know your training was completed and understood?  
+Do you know who is *really* being trained or tested?
+
+[Photo by Craig Garner on Unsplash](https://unsplash.com/photos/YoadQb46v6k)
+
+[Comprobo](https://comprobo.co.uk) approached us with the aim to rebuild a prototyped interface for their automated invigilation and identity verification solution.
+
+Choosing to approach the problem from a design-first perspective, we produced UX and UI design guidelines using atomic design patterns.
+
+For the implementation we chose [Angular](https://angularjs.org/) for its stability and battle-tested APIs in business of all scales, from start-up to international bank.
+
+Over the next few months we prototyped, reviewed and implemented sections of the user interface, as guided by stakeholders and prospective users.
+
+Consuming a set of structured JSON APIs and responding to user events across Angular directives we built a modular system that can be expanded and reworked without massive rewrites and allowing us a degree of flexibility to replace modules that are unsatisfactory with improved versions as and when they are required.
+
+In particular we were tasked to solve problems around capturing webcam streams, audio information and device and connectivity information to provide administrators a huge wealth of information to help them understand the nature of their user's actions and to inform them on their subsequent actions.
+
+Using Agile methodologies we regularly review progress and priorities with other stakeholders and remote members of the team.
+
+My duties on this project include supporting third parties integrating with the software, architecting and implementing modules and features in the Angular codebase, scheduling, and managing ticket backlog.
+
+I also provide some backup support for the AWS infrastructure and some back-end services when required.
