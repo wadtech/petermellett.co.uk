@@ -22,7 +22,7 @@ Using the built-in database session driver we maintain a pivot table linking Ent
 
 This was brilliant and worked flawlessly-
 
-![Snippet of error screen during Laravel development](/assets/images/insights/laravel-session-driver-oops.png)
+![Snippet of error screen during Laravel development](/assets/images/laravel-session-driver-oops.png)
 
 \-until the session garbage collection attempted to clean up some old sessions and didn't know to remove their related models.
 
