@@ -20,6 +20,10 @@ headerImage: true
 
 ## Work
 
+**April 2018 to present: Web Developer, Freelance**
+
+Currently serving a number of clients to build and maintain Ruby on Rails, Laravel and Angular (1.6) projects. Involved with planning and working with a trusted network of design, marketing and UX specialists to deliver maintainable and extensible web applications across a number of industries.
+
 **April 2016 to March 2018: Web Developer, Foundry**
 
 Worked on multiple SaaS applications, WordPress sites and front-end applications using PHP, JavaScript, Ruby and more. Responsibilities include scheduling, project management and delivery and client meetings.
