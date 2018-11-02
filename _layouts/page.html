@@ -3,6 +3,13 @@ layout: default
 ---
 {% include header.html %}
 
+{% if page.title == "Home" %}
+    {% assign newest_post = site.posts.first %}
+    <div class="latest center">
+        <p class="latest-title"><small>Latest post:</small> <a href="{{newest_post.url}}">{{newest_post.title}}</a></p>
+    </div>
+{% endif %}
+
 {{content}}
 
 {% include footer.html %}
