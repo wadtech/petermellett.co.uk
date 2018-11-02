@@ -1,0 +1,27 @@
+---
+title: Contact
+layout: page
+---
+
+<img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+
+<p>If you've got a project in mind, or need somebody to help with application maintenance and deployment then please get in touch. I can also recommend design and marketing services if required.</p>
+
+<form name="contact" netlify method="post">
+    <div>
+        <label>
+            Email<br>
+            <input type="email" name="email" placeholder="Email"/>
+        </label>
+        <small class="right"><em>I won't use your email for anything other than replying to your message.</em></small>
+    </div>
+
+    <div>
+        <label>
+            Message<br>
+            <textarea name="message" placeholder="A little about you and your project"></textarea>
+        </label>
+    </div>
+    <input type="submit" class="btn btn-submit" value="Send"/>
+</form>
+

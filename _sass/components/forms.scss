@@ -1,0 +1,56 @@
+form {
+    padding: 1em 0;
+    width: 100%;
+
+    box-sizing: border-box;
+
+    & * {
+        box-sizing: border-box;
+    }
+}
+input,
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: .4em;
+    background: transparent;
+    border: 1px solid rgba(grey, .5);
+}
+
+input[type="submit"] {
+    width: 25%;
+    float: right;
+    color: white;
+    background: rgb(63, 161, 63);
+    cursor: pointer;
+    box-shadow: 1px 1px 3px grey;
+    outline: 0;
+
+    &:active {
+        outline: 0;
+        background: rgb(55, 141, 55);
+        position: relative;
+        bottom: -1px;
+        right: -1px;
+        box-shadow: none;
+    }
+
+    &:hover {
+        outline: 0;
+        background: rgb(67, 172, 67);
+    }
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+label > textarea,
+label > input {
+    margin-top: .5em;
+}
+
+form div {
+    margin-bottom: 1em;
+}
