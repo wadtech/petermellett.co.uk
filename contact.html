@@ -5,7 +5,7 @@ layout: page
 
 <p>If you've got a project in mind, or need somebody to help with application maintenance and deployment then please get in touch. I can also recommend design and marketing services if required.</p>
 
-<form name="contact" netlify method="post">
+<form data-netlify-recaptcha="true" name="contact" netlify method="post">
     <div>
         <label>
             Email<br>
@@ -20,6 +20,9 @@ layout: page
             <textarea name="message" placeholder="A little about you and your project"></textarea>
         </label>
     </div>
+
+    <div data-netlify-recaptcha="true"></div>
+
     <input type="submit" class="btn btn-submit" value="Send"/>
 </form>
 
