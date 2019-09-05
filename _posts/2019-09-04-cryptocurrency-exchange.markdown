@@ -14,6 +14,8 @@ description: A cryptocurrency approached one of my clients for a rebrand and reb
 category: project
 ---
 
+# Cryptocurrency Exchange Website
+
 My client was approached to facilitate a rebrand and update the website for a cryptocurrency exchange. Their current focus is on professional clients. I was brought in to implement the new design with an emphasis on motion and transition while adhering to low carbon emission and responsible web development principles.
 
 [Photo by Tomasz Frankowski on Unsplash](https://unsplash.com/photos/kBUfvkbFIoE)
