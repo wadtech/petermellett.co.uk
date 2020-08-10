@@ -12,10 +12,10 @@ headerImage: true
 ## About me
 
 * Based in the UK, in Cornwall.
-* Professional software engineer for five years.
+* Professional software engineer since 2013.
 * Studied computer science through A-levels and university 2003-2009
-* Hobbyist &amp; [Open source contributor](https://github.com/wadtech) from 2011
-* STEM Ambassador & volunteer
+* Hobbyist &amp; [Open source contributor](https://github.com/wadtech) since 2011.
+* Former STEM Ambassador & volunteer
 * Full, clean UK driving licence.
 
 ## Work
@@ -23,6 +23,13 @@ headerImage: true
 **April 2018 to present: Web Developer, Freelance**
 
 Currently serving a number of clients to build and maintain Ruby on Rails, Laravel and Angular (1.6) projects. Involved with planning and working with a trusted network of design, marketing and UX specialists to deliver maintainable and extensible web applications across a number of industries.
+
+Recent projects include:
+
+* Search-first website for discoverability of neurological data
+* Private React Native app
+* Cryptocurrency exchange website
+* Extensions to a ecological project management company website
 
 **April 2016 to March 2018: Web Developer, Foundry**
 
