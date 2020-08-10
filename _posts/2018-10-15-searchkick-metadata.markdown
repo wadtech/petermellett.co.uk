@@ -12,7 +12,7 @@ author: pete
 description: How I implemented a queued indexing of updated models in a Ruby on Rails application using background_job and searchkick. Photo by Icons8 team on Unsplash
 ---
 
-[Photo by Icons8 team on Unsplash](https://unsplash.com/photos/dhZtNlvNE8M)
+[Photo by Icons8 team](https://photos.icons8.com/) via [Unsplash](https://unsplash.com/photos/dhZtNlvNE8M)
 
 ## The problem
 
